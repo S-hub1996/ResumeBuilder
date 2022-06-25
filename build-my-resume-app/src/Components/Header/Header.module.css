@@ -1,10 +1,12 @@
 .container{
-    padding: 30px;
+    padding-left: 30px;
+
     text-align: center;
     width: 100%;
     display: flex;
     background-color: rgb(212, 193, 193);
-    
+    line-height: 4rem;
+    /* gap: 5rem; */
 
 }
 .heading{
@@ -22,5 +24,5 @@
 
 }
 .right img{
-    margin-right: 200px;
+    margin-right: 250px;
 }

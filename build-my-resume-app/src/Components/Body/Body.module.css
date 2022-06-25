@@ -1,13 +1,13 @@
-.container{
+.container {
+    padding: 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
-    padding: 30px;
-    text-align: center;
-    
-}
+    padding-top: 0;
+  }
 .heading{
-    color: red;
+    color: #e2236c;
     font-size: 30px;
     text-align: center;
     font-weight: 500;
@@ -32,10 +32,17 @@
 
 }
 .toolbar button{
-    padding:8px 16px ;
+    padding: 8px 16px;
     border-radius: 5px;
-    background-color: red;
+    background-color: #e2236c;
+    color: #fff;
     outline: none;
     border: none;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
 }
